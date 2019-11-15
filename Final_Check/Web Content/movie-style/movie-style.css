@@ -1,0 +1,74 @@
+.header
+{
+	background-color: #004080;
+	color: #ffffff;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+}
+.itemleft
+{
+	padding-left: 50px;
+	font-size: 30px;
+	float: left;
+}
+.itemright
+{
+	padding-right: 50px;
+	float: right;
+	font-size: 20px;
+	color: #ffffff;
+}
+img
+{
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 20px;
+}
+.main
+{
+	font-size: 20px;
+	padding-left: 50px;
+}
+td
+{
+	text-align: center;
+}
+.left
+{
+	text-align: left;
+}
+.right
+{
+	text-align: right;
+}
+footer
+{
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #a6a6a6;
+	height: 70px;
+	padding-left: 40px;
+	padding-top: 20px;
+	font-size: 20px;
+	position: fixed;
+}
+.save
+{
+	padding-left: 70px;
+	font-size: 35px;
+}
+.save1
+{
+	padding-left: 70px;
+	font-size: 25px;
+	color: #33cc33;
+}
+.empty
+{
+	color: #a6a6a6;
+	padding-left: 70px;
+}

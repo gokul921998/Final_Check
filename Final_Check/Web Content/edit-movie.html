@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="movie-style/movie-style.css">
+<link rel="stylesheet" href="movie-style/edit-style.css">
+<script type="text/javascript" src="js/validation.js"></script>
+<title>Edit Movie Details</title>
+</head>
+<body>
+<header class="header container-fluid">
+<h1 class="itemleft">Movie Cruiser</h1>
+<img src="image/image1.png">
+<a href="movie-list-admin.html" class="itemright">Movies</a>
+</header><br><br><br>
+<section class="main">
+<h1>Edit Movie</h1><br>
+<form name="editMovieForm" action="edit-movie-status.html" method="post" onsubmit="return validateMovieForm()">
+<table style="width: 100%">
+<tr><th colspan="4"><label for="mname">Title</label></th></tr>
+<tr><td colspan="4"><input type="text" id="mname" name="movieName" style="width: 80%"></td></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><th><label for="mgross">Gross($)</label></th>
+<th><label for="mactive">Active</label></th>
+<th><label for="mdate">Date of Launch:</label></th>
+<th><label for="mgenre">Genre</label></th></tr>
+<tr>
+<td><input type="text" name="gross" id="mgross"></td>
+<td><input type="radio" id="mactive" name="active" value="Yes" style="font-size: 20px">Yes  
+    <input type="radio" id="mactive" name="active" value="No" style="font-size: 20px">No</td>
+<td><input type="date" name="date" id="mdate"></td>
+<td><input list="genres" name="movieGenre" id="mgenre">
+    <datalist id="genres">
+    <option value="Science Fiction">
+    <option value="Superhero">
+    <option value="Romance">
+    <option value="Comedy">
+    <option value="Adventure">
+    <option value="Thriller">
+</datalist></td></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><td><input type="checkbox" name="teaser" id="mteaser" checked>
+<label for="mteaser">Has Teaser</label></td>
+</tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr><td><input type="submit" class="button" value="Save"></td></tr>
+</table>
+</form>
+
+
+
+
+
+</section>
+<footer>Copyright©2019</footer>
+
+</body>
+</html>
